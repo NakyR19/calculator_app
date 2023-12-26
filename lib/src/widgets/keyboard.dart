@@ -111,7 +111,7 @@ class Keyboard extends StatelessWidget {
           ButtonRow(
             buttons: [
               Button(
-                char: '( )',
+                char: '00',
                 callback: callback,
               ),
               Button(
@@ -119,7 +119,7 @@ class Keyboard extends StatelessWidget {
                 callback: callback,
               ),
               Button(
-                char: ',',
+                char: '.',
                 callback: callback,
               ),
               Button.equal(

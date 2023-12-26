@@ -55,14 +55,14 @@ class Attributes {
   }
 
   _addDigit(String digit) {
-    final isComma = digit == ',';
-    final wipeValue = (_value == '0' && !isComma) || _wipeValue;
+    final isDot = digit == '.';
+    final wipeValue = (_value == '0' && !isDot) || _wipeValue;
 
-    if (isComma && _value.contains(',') && !wipeValue) {
+    if (isDot && _value.contains('.') && !wipeValue) {
       return;
     }
 
-    final emptyValue = isComma ? '0' : '';
+    final emptyValue = isDot ? '0' : '';
 
     final currentValue = wipeValue ? emptyValue : _value;
     _value = currentValue + digit;
