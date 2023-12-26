@@ -9,6 +9,7 @@ class CalculatorApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: const ColorScheme.highContrastLight()),
+      debugShowCheckedModeBanner: false,
       home: const CalculatorPage(),
     );
   }
