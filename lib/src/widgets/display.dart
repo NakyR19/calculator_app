@@ -15,16 +15,17 @@ class Display extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               Padding(
-                padding: EdgeInsets.all(8.0),
+                padding: const EdgeInsets.all(8.0),
                 child: AutoSizeText(
                   char,
                   minFontSize: 20,
                   maxFontSize: 80,
                   maxLines: 1,
                   textAlign: TextAlign.end,
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Colors.white,
                     fontSize: 80,
+                    fontWeight: FontWeight.w200,
                     decoration: TextDecoration.none,
                   ),
                 ),

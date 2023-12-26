@@ -19,11 +19,11 @@ class Keyboard extends StatelessWidget {
                 callback: callback,
               ),
               Button.operation(
-                char: 'x²',
+                char: 'xⁿ',
                 callback: callback,
               ),
               Button.operation(
-                char: '√x',
+                char: 'ⁿ√x',
                 callback: callback,
               ),
               Button.operation(
@@ -33,7 +33,7 @@ class Keyboard extends StatelessWidget {
             ],
           ),
           Container(
-            height: 1,
+            height: 2,
             color: const Color.fromRGBO(30, 32, 37, 1),
           ),
           ButtonRow(
@@ -57,7 +57,7 @@ class Keyboard extends StatelessWidget {
             ],
           ),
           Container(
-            height: 1,
+            height: 2,
             color: const Color.fromRGBO(30, 32, 37, 1),
           ),
           ButtonRow(
@@ -81,7 +81,7 @@ class Keyboard extends StatelessWidget {
             ],
           ),
           Container(
-            height: 1,
+            height: 2,
             color: const Color.fromRGBO(30, 32, 37, 1),
           ),
           ButtonRow(
@@ -105,7 +105,7 @@ class Keyboard extends StatelessWidget {
             ],
           ),
           Container(
-            height: 1,
+            height: 2,
             color: const Color.fromRGBO(30, 32, 37, 1),
           ),
           ButtonRow(
